@@ -1,0 +1,85 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "24hr Urgent Assistance",
+      "icon": "emergency",
+      "services": [
+        {
+          "name": "111 NHS Medical",
+          "phoneNumber": "111"
+        },
+        {
+          "name": "101 Police Non-Urgent",
+          "phoneNumber": "101"
+        },
+        {
+          "name": "999 Police, Ambulance, Fire",
+          "phoneNumber": "999"
+        },
+        {
+          "name": "Abuse Support Line",
+          "phoneNumber": "08082000247"
+        },
+        {
+          "name": "Bereavement Support",
+          "phoneNumber": "03001233393"
+        },
+        {
+          "name": "Samaritans",
+          "phoneNumber": "116123"
+        },
+        {
+          "name": "Silver Line (Over 55s)",
+          "phoneNumber": "08004708090"
+        },
+        {
+          "name": "Victim Support",
+          "phoneNumber": "08081689293"
+        }
+      ]
+    },
+    {
+      "name": "Health",
+      "icon": "health_and_safety",
+      "services": [
+        {
+          "name": "Parkinson UK",
+          "phoneNumber": "03301243250"
+        }
+      ]
+    },
+    {
+      "name": "Money Matters",
+      "icon": "account_balance_wallet",
+      "subcategories": [
+        {
+          "name": "Benefits",
+          "services": [
+            {
+              "name": "Attendance Allowance",
+              "phoneNumber": "08007310122"
+            },
+            {
+              "name": "PIP Benefit Helpline",
+              "phoneNumber": "08009172222"
+            },
+            {
+              "name": "Pension Credit",
+              "phoneNumber": "0800991234"
+            }
+          ]
+        },
+        {
+          "name": "Debt Management",
+          "services": [
+            {
+              "name": "Shelter",
+              "phoneNumber": "08088004444"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
