@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "name": "24hr Urgent Assistance",
@@ -40,6 +40,40 @@
       ]
     },
     {
+      "name": "Accommodation",
+      "icon": "home",
+      "services": [
+        {
+          "name": "Age UK",
+          "phoneNumber": "08006781602"
+        },
+        {
+          "name": "Citizens Advice Line",
+          "phoneNumber": "08001448848"
+        },
+        {
+          "name": "Electrical Power Cuts",
+          "phoneNumber": "08003163105"
+        },
+        {
+          "name": "Emmaus",
+          "phoneNumber": "03003037555"
+        },
+        {
+          "name": "Gas Leak Reporting",
+          "phoneNumber": "0800111999"
+        },
+        {
+          "name": "Shelter",
+          "phoneNumber": "08088004444"
+        },
+        {
+          "name": "Trussell Trust",
+          "phoneNumber": "08002082138"
+        }
+      ]
+    },
+    {
       "name": "Health",
       "icon": "health_and_safety",
       "services": [
@@ -61,12 +95,49 @@
               "phoneNumber": "08007310122"
             },
             {
-              "name": "PIP Benefit Helpline",
-              "phoneNumber": "08009172222"
+              "name": "Dept. of Works and Pensions",
+              "phoneNumber": "08007310469"
+            },
+            {
+              "name": "Incapacity Benefit",
+              "phoneNumber": "08001690310"
+            },
+            {
+              "name": "Job Seekers Allowance",
+              "phoneNumber": "08001690310"
             },
             {
               "name": "Pension Credit",
               "phoneNumber": "0800991234"
+            },
+            {
+              "name": "PIP Advice",
+              "phoneNumber": "08001214433"
+            },
+            {
+              "name": "PIP Claims",
+              "phoneNumber": "08009172222"
+            },
+            {
+              "name": "Universal Credit",
+              "phoneNumber": "08009175644"
+            },
+            {
+              "name": "Citizens Advice Benefits Advice",
+              "phoneNumber": "08001448444"
+            },
+            {
+              "name": "Turn2us Benefits Advice",
+              "phoneNumber": "08088022000"
+            }
+          ]
+        },
+        {
+          "name": "Money Management Advice",
+          "services": [
+            {
+              "name": "Money Helper",
+              "phoneNumber": "08001387777"
             }
           ]
         },
@@ -74,8 +145,28 @@
           "name": "Debt Management",
           "services": [
             {
-              "name": "Shelter",
-              "phoneNumber": "08088004444"
+              "name": "Citizens Advice Debt Line",
+              "phoneNumber": "08082231133"
+            },
+            {
+              "name": "Debt Advice Foundation",
+              "phoneNumber": "08000434050"
+            },
+            {
+              "name": "Debt Line",
+              "phoneNumber": "08088084000"
+            },
+            {
+              "name": "Step Change",
+              "phoneNumber": "08001381111"
+            },
+            {
+              "name": "Turn2us",
+              "phoneNumber": "08088022000"
+            },
+            {
+              "name": "Citizens Debt Advice 24/7",
+              "phoneNumber": "08082787854"
             }
           ]
         }
