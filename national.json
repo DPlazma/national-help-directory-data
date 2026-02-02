@@ -1,437 +1,216 @@
 {
-  "version": 4,
+  "version": 5,
   "categories": [
     {
       "name": "24hr Urgent Assistance",
       "icon": "emergency",
       "services": [
+        { "name": "111 NHS Medical", "phoneNumber": "111" },
+        { "name": "101 Police Non-Urgent", "phoneNumber": "101" },
+        { "name": "999 Police, Ambulance, Fire", "phoneNumber": "999" },
+        { "name": "Abuse Support Line", "phoneNumber": "08082000247" },
+        { "name": "Bereavement Support", "phoneNumber": "03001233393" },
+        { "name": "Childline", "phoneNumber": "08001111" },
+        { "name": "Samaritans", "phoneNumber": "116123" },
+        { "name": "Silver Line (Over 55s)", "phoneNumber": "08004708090" },
+        { "name": "Victim Support", "phoneNumber": "08081689293" }
+      ]
+    },
+    {
+      "name": "Money Matters",
+      "icon": "account_balance_wallet",
+      "subcategories": [
         {
-          "name": "111 NHS Medical",
-          "phoneNumber": "111"
+          "name": "Benefits",
+          "services": [
+            { "name": "Attendance Allowance", "phoneNumber": "08007310122" },
+            { "name": "Dept. of Works and Pensions", "phoneNumber": "08007310469" },
+            { "name": "Incapacity Benefit", "phoneNumber": "08001690310" },
+            { "name": "Job Seekers Allowance", "phoneNumber": "08001690310" },
+            { "name": "Pension Credit", "phoneNumber": "0800991234" },
+            { "name": "PIP Advice", "phoneNumber": "08001214433" },
+            { "name": "PIP Claims", "phoneNumber": "08009172222" },
+            { "name": "Universal Credit", "phoneNumber": "08009175644" },
+            { "name": "Citizens Advice Benefits Advice", "phoneNumber": "08001448444" },
+            { "name": "Turn2us Benefits Advice", "phoneNumber": "08088022000" }
+          ]
         },
         {
-          "name": "101 Police Non-Urgent",
-          "phoneNumber": "101"
+          "name": "Money Management Advice",
+          "services": [
+            { "name": "Money Helper", "phoneNumber": "08001387777" }
+          ]
         },
         {
-          "name": "999 Police, Ambulance, Fire",
-          "phoneNumber": "999"
-        },
-        {
-          "name": "Abuse Support Line",
-          "phoneNumber": "08082000247"
-        },
-        {
-          "name": "Bereavement Support",
-          "phoneNumber": "03001233393"
-        },
-        {
-            "name": "Childline",
-            "number": "0800 1111"
-        },
-        {
-          "name": "Samaritans",
-          "phoneNumber": "116123"
-        },
-        {
-          "name": "Silver Line (Over 55s)",
-          "phoneNumber": "08004708090"
-        },
-        {
-          "name": "Victim Support",
-          "phoneNumber": "08081689293"
+          "name": "Debt Management",
+          "services": [
+            { "name": "Citizens Advice Debt Advice", "phoneNumber": "08082231133" },
+            { "name": "Debt Advice Foundation", "phoneNumber": "08000434050" },
+            { "name": "Debt Line", "phoneNumber": "08088084000" },
+            { "name": "Step Change", "phoneNumber": "08001381111" },
+            { "name": "Turn2us", "phoneNumber": "08088022000" },
+            { "name": "Citizens Debt Advice 24/7", "phoneNumber": "08082787854" }
+          ]
         }
       ]
     },
-   {
-    "category": "Money Matters",
-    "subcategories": [
-      {
-        "name": "Benefits",
-        "organizations": [
-          {
-            "name": "Attendance allowance",
-            "number": "0800 7310122"
-          },
-          {
-            "name": "Dept: of Works and Pensions",
-            "number": "0800 7310469"
-          },
-          {
-            "name": "Incapacity Benefit",
-            "number": "0800 1690310"
-          },
-          {
-            "name": "Job seekers allowance",
-            "number": "0800 1690310"
-          },
-          {
-            "name": "Pension Credit",
-            "number": "0800 99 1234"
-          },
-          {
-            "name": "PIP advice",
-            "number": "0800 1214433"
-          },
-          {
-            "name": "PiP claims",
-            "number": "0800 9172222"
-          },
-          {
-            "name": "Universal Credit",
-            "number": "0800 9175644"
-          },
-          {
-            "name": "Citizens Advice benefits advice",
-            "number": "0800 1448444"
-          },
-          {
-            "name": "Turn2us benefits advice",
-            "number": "0808 8022000"
-          }
-        ]
-      },
-      {
-        "name": "Money management advice",
-        "organizations": [
-          {
-            "name": "Money Helper",
-            "number": "0800 1387777"
-          }
-        ]
-      },
-      {
-        "name": "Debt management",
-        "organizations": [
-          {
-            "name": "Citizens Advice Debt advice",
-            "number": "0808 2231133"
-          },
-          {
-            "name": "Debt Advice Foundation",
-            "number": "0800 0434050"
-          },
-          {
-            "name": "Debt Line",
-            "number": "0808 8084000"
-          },
-          {
-            "name": "Step Change",
-            "number": "0800 1381111"
-          },
-          {
-            "name": "Turn2us",
-            "number": "0808 8022000"
-          },
-          {
-            "name": "Citizens debt Advice 24/7",
-            "number": "0808 2787854"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Physical matters",
-    "subcategories": [
-      {
-        "name": "Emergency Accomodation",
-        "organizations": [
-          {
-            "name": "Centrepoint",
-            "number": "020 3764 8969"
-          },
-          {
-            "name": "Crisis",
-            "number": "0300 636 1967"
-          },
-          {
-            "name": "Shelter",
-            "number": "0808 800 4444"
-          },
-          {
-            "name": "St Mungo",
-            "number": "020 3856 6000"
-          }
-        ]
-      },
-      {
-        "name": "Home equiptment",
-        "organizations": [
-          {
-            "name": "Emmaus",
-            "number": "0300 303 7555"
-          },
-          {
-            "name": "Salvation Army",
-            "number": "0207 367 4500"
-          }
-        ]
-      },
-      {
-        "name": "Home warm",
-        "organizations": [
-          {
-            "name": "National Energy Advice",
-            "number": "0800 098 7950"
-          },
-          {
-            "name": "Age UK",
-            "number": "0800 055 6112"
-          },
-          {
-            "name": "Citizens Advice",
-            "number": "0800 144 8848"
-          }
-        ]
-      },
-      {
-        "name": "Food Banks",
-        "organizations": [
-          {
-            "name": "The Trussell Trust",
-            "number": "0800 208 2138"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Medical Charities",
-    "subcategories": [
-      {
-        "name": "Blood & Heart",
-        "organizations": [
-          {
-            "name": "British Heart Foundation",
-            "number": "0303303322"
-          },
-          {
-            "name": "Headway",
-            "number": "01162739763"
-          },
-          {
-            "name": "Heart UK",
-            "number": "01628777046"
-          },
-          {
-            "name": "Diabetic UK",
-            "number": "03451232399"
-          }
-        ]
-      },
-      {
-        "name": "Brain & Neurological",
-        "organizations": [
-          {
-            "name": "Autistic Society",
-            "number": "08008004104"
-          },
-          {
-            "name": "Dementia UK",
-            "number": "02080365400"
-          },
-          {
-            "name": "MENCAP",
-            "number": "08088081111"
-          },
-          {
-            "name": "Motor Neuron Society",
-            "number": "08088026262"
-          },
-          {
-            "name": "M S Society",
-            "number": "08088008000"
-          },
-          {
-            "name": "Parkinson UK",
-            "number": "03301243250"
-          },
-          {
-            "name": "Stroke Society",
-            "number": "03033033100"
-          }
-        ]
-      },
-      {
-        "name": "Cancer",
-        "organizations": [
-          {
-            "name": "Blood Cancer UK",
-            "number": "08082080888"
-          },
-          {
-            "name": "Breast Cancer UK",
-            "number": "08008006000"
-          },
-          {
-            "name": "Bowel Cancer UK",
-            "number": "02079401760"
-          },
-          {
-            "name": "Macmillan Cancer",
-            "number": "08088080000"
-          },
-          {
-            "name": "Marie Cure",
-            "number": "08000902309"
-          },
-          {
-            "name": "Pancreas Cancer UK",
-            "number": "08088010707"
-          },
-          {
-            "name": "Prostate Cancer",
-            "number": "0800 074 8383"
-          }
-        ]
-      },
-      {
-        "name": "Physical and mobility issues",
-        "organizations": [
-          {
-            "name": "Arthritis U K",
-            "number": "03007900400"
-          },
-          {
-            "name": "Motor Neurone U K",
-            "number": "08088026262"
-          },
-          {
-            "name": "Osteoarthritis UK",
-            "number": "03007900400"
-          }
-        ]
-      },
-      {
-        "name": "Addictions and dependencies",
-        "organizations": [
-          {
-            "name": "Alcoholics Anonymous",
-            "number": "08009177650"
-          },
-          {
-            "name": "Drug Addicts Anonymous",
-            "number": "03000303000"
-          },
-          {
-            "name": "Gamblers Anonymous",
-            "number": "03300940322"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Home care",
-    "subcategories": [
-      {
-        "name": "Charities",
-        "organizations": [
-          {
-            "name": "Age UK",
-            "number": "0800 678 1602"
-          }
-        ]
-      },
-      {
-        "name": "Commercial care organisations",
-        "organizations": [
-          {
-            "name": "CareMark",
-            "number": "01903 266392"
-          },
-          {
-            "name": "Curam",
-            "number": "0203 859 8970"
-          },
-          {
-            "name": "Helping Hands",
-            "number": "0330 818 6116"
-          },
-          {
-            "name": "Homecare",
-            "number": "01488 684 321"
-          },
-          {
-            "name": "Home Instead",
-            "number": "0330 828 5725"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Welfare support",
-    "subcategories": [
-      {
-        "name": "Charity",
-        "organizations": [
-          {
-            "name": "Salvation Army",
-            "number": "0207 3674800"
-          }
-        ]
-      },
-      {
-        "name": "Charity Chat Lines",
-        "organizations": [
-          {
-            "name": "Silver Line",
-            "number": "0800 470 8090"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "category": "Travel",
-    "subcategories": [
-      {
-        "name": "Charity",
-        "organizations": [
-          {
-            "name": "Age UK blue badge",
-            "number": "0800 055 6112"
-          },
-          {
-            "name": "Disabled Motoring Assoc.",
-            "number": "01508489449"
-          }
-        ]
-      },
-      {
-        "name": "Chargeable call 13p per min",
-        "organizations": [
-          {
-            "name": "National Express bus enquiries",
-            "number": "08717818181"
-          }
-        ]
-      },
-      {
-        "name": "Commercial",
-        "organizations": [
-          {
-            "name": "National Express bus assistance",
-            "number": "03717 818181"
-          }
-        ]
-      },
-      {
-        "name": "Public service",
-        "organizations": [
-          {
-            "name": "National Rail Enquiries",
-            "number": "0800 0223720"
-          },
-          {
-            "name": "National rail assistance",
-            "number": "0800 3161323"
-          }
-        ]
-      }
-    ]
-  }
-]
+    {
+      "name": "Physical Matters",
+      "icon": "home",
+      "subcategories": [
+        {
+          "name": "Emergency Accommodation",
+          "services": [
+            { "name": "Centrepoint", "phoneNumber": "02037648969" },
+            { "name": "Crisis", "phoneNumber": "03006361967" },
+            { "name": "Shelter", "phoneNumber": "08088004444" },
+            { "name": "St Mungo", "phoneNumber": "02038566000" }
+          ]
+        },
+        {
+          "name": "Home Equipment",
+          "services": [
+            { "name": "Emmaus", "phoneNumber": "03003037555" },
+            { "name": "Salvation Army", "phoneNumber": "02073674500" }
+          ]
+        },
+        {
+          "name": "Home Warmth",
+          "services": [
+            { "name": "National Energy Advice", "phoneNumber": "08000987950" },
+            { "name": "Age UK", "phoneNumber": "08000556112" },
+            { "name": "Citizens Advice", "phoneNumber": "08001448848" }
+          ]
+        },
+        {
+          "name": "Food Banks",
+          "services": [
+            { "name": "The Trussell Trust", "phoneNumber": "08002082138" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Medical Charities",
+      "icon": "health_and_safety",
+      "subcategories": [
+        {
+          "name": "Blood & Heart",
+          "services": [
+            { "name": "British Heart Foundation", "phoneNumber": "03033033222" },
+            { "name": "Headway", "phoneNumber": "01162739763" },
+            { "name": "Heart UK", "phoneNumber": "01628777046" },
+            { "name": "Diabetes UK", "phoneNumber": "03451232399" }
+          ]
+        },
+        {
+          "name": "Brain & Neurological",
+          "services": [
+            { "name": "Autistic Society", "phoneNumber": "08008004104" },
+            { "name": "Dementia UK", "phoneNumber": "02080365400" },
+            { "name": "MENCAP", "phoneNumber": "08088081111" },
+            { "name": "Motor Neurone Society", "phoneNumber": "08088026262" },
+            { "name": "MS Society", "phoneNumber": "08088008000" },
+            { "name": "Parkinson UK", "phoneNumber": "03301243250" },
+            { "name": "Stroke Association", "phoneNumber": "03033033100" }
+          ]
+        },
+        {
+          "name": "Cancer",
+          "services": [
+            { "name": "Blood Cancer UK", "phoneNumber": "08082080888" },
+            { "name": "Breast Cancer UK", "phoneNumber": "08008006000" },
+            { "name": "Bowel Cancer UK", "phoneNumber": "02079401760" },
+            { "name": "Macmillan Cancer", "phoneNumber": "08088080000" },
+            { "name": "Marie Curie", "phoneNumber": "08000902309" },
+            { "name": "Pancreatic Cancer UK", "phoneNumber": "08018010707" },
+            { "name": "Prostate Cancer UK", "phoneNumber": "08000748383" }
+          ]
+        },
+        {
+          "name": "Physical & Mobility",
+          "services": [
+            { "name": "Arthritis UK", "phoneNumber": "03007900400" },
+            { "name": "Motor Neurone UK", "phoneNumber": "08088026262" },
+            { "name": "Osteoporosis UK", "phoneNumber": "03007900400" }
+          ]
+        },
+        {
+          "name": "Addictions & Dependencies",
+          "services": [
+            { "name": "Alcoholics Anonymous", "phoneNumber": "08009177650" },
+            { "name": "Drug Addicts Anonymous", "phoneNumber": "03000303000" },
+            { "name": "Gamblers Anonymous", "phoneNumber": "03300940322" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home Care",
+      "icon": "elderly",
+      "subcategories": [
+        {
+          "name": "Charities",
+          "services": [
+            { "name": "Age UK", "phoneNumber": "08006781602" }
+          ]
+        },
+        {
+          "name": "Commercial Care Organisations",
+          "services": [
+            { "name": "CareMark", "phoneNumber": "01903266392" },
+            { "name": "Curam", "phoneNumber": "02038598970" },
+            { "name": "Helping Hands", "phoneNumber": "03308186116" },
+            { "name": "Homecare", "phoneNumber": "01488684321" },
+            { "name": "Home Instead", "phoneNumber": "03308285725" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Welfare Support",
+      "icon": "volunteer_activism",
+      "subcategories": [
+        {
+          "name": "Charities",
+          "services": [
+            { "name": "Salvation Army", "phoneNumber": "02073674800" }
+          ]
+        },
+        {
+          "name": "Charity Chat Lines",
+          "services": [
+            { "name": "Silver Line", "phoneNumber": "08004708090" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Travel",
+      "icon": "directions_bus",
+      "subcategories": [
+        {
+          "name": "Disability Support",
+          "services": [
+            { "name": "Age UK Blue Badge", "phoneNumber": "08000556112" },
+            { "name": "Disabled Motoring Association", "phoneNumber": "01508489449" }
+          ]
+        },
+        {
+          "name": "Bus Services",
+          "services": [
+            { "name": "National Express Enquiries", "phoneNumber": "08717818181" },
+            { "name": "National Express Assistance", "phoneNumber": "03717818181" }
+          ]
+        },
+        {
+          "name": "Rail Services",
+          "services": [
+            { "name": "National Rail Enquiries", "phoneNumber": "08000223720" },
+            { "name": "National Rail Assistance", "phoneNumber": "08003161323" }
+          ]
+        }
+      ]
+    }
+  ]
 }
