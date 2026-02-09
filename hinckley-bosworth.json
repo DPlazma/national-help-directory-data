@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "categories": [
+    {
+      "name": "Money Matters",
+      "icon": "account_balance_wallet",
+      "subcategories": [
+        {
+          "name": "Money Management Advice",
+          "services": [
+            {
+              "name": "Hinckley Citizens Advice",
+              "phoneNumber": "08082778540"
+            }
+          ]
+        },
+        {
+          "name": "Credit Union",
+          "services": [
+            {
+              "name": "Clockwise Credit Union",
+              "phoneNumber": "01162423900"
+            }
+          ]
+        },
+        {
+          "name": "Council Tax",
+          "services": [
+            {
+              "name": "Hinckley & Bosworth Council",
+              "phoneNumber": "01455238141"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physical Matters",
+      "icon": "accessibility_new",
+      "subcategories": [
+        {
+          "name": "Emergency Accommodation",
+          "services": [
+            {
+              "name": "Hinckley & Bosworth Council",
+              "phoneNumber": "01455238141"
+            }
+          ]
+        },
+        {
+          "name": "Pre Owned White Goods",
+          "services": [
+            {
+              "name": "Emmaus",
+              "phoneNumber": "01455637587"
+            },
+            {
+              "name": "Work Link",
+              "phoneNumber": "01455634449"
+            }
+          ]
+        },
+        {
+          "name": "2nd Hand Furniture",
+          "services": [
+            {
+              "name": "Mind Hinckley",
+              "phoneNumber": "01455633490"
+            }
+          ]
+        },
+        {
+          "name": "Keeping Warm",
+          "services": [
+            {
+              "name": "Age UK",
+              "phoneNumber": "01162614604"
+            }
+          ]
+        },
+        {
+          "name": "Food Bank",
+          "services": [
+            {
+              "name": "Hinckley Food Bank",
+              "phoneNumber": "01455697390"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home Care",
+      "icon": "home",
+      "subcategories": [
+        {
+          "name": "Public Services",
+          "services": [
+            {
+              "name": "Hinckley Social Services",
+              "phoneNumber": "01455636964"
+            },
+            {
+              "name": "Lifeline",
+              "phoneNumber": "01455251137"
+            },
+            {
+              "name": "Leics Social Services",
+              "phoneNumber": "01162787111"
+            },
+            {
+              "name": "Leics Adult Social Care",
+              "phoneNumber": "01163050004"
+            },
+            {
+              "name": "Leics Mental Health",
+              "phoneNumber": "08088003302"
+            }
+          ]
+        },
+        {
+          "name": "Charity",
+          "services": [
+            {
+              "name": "Age UK",
+              "phoneNumber": "01162992266"
+            }
+          ]
+        },
+        {
+          "name": "Commercial Care Organisations",
+          "services": [
+            {
+              "name": "Blue Bird",
+              "phoneNumber": "01455360081"
+            },
+            {
+              "name": "Helping Hand",
+              "phoneNumber": "07903315239"
+            },
+            {
+              "name": "Radfield Home Care",
+              "phoneNumber": "01664732047"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Welfare & Support",
+      "icon": "volunteer_activism",
+      "services": [
+        {
+          "name": "Hinckley Library",
+          "phoneNumber": "01455635106"
+        }
+      ]
+    },
+    {
+      "name": "Travel",
+      "icon": "directions_bus",
+      "subcategories": [
+        {
+          "name": "Local Car Volunteer Travel",
+          "services": [
+            {
+              "name": "Dial a Ride",
+              "phoneNumber": "01455250462"
+            }
+          ]
+        },
+        {
+          "name": "Leics Travel Cards",
+          "services": [
+            {
+              "name": "Blue Badge",
+              "phoneNumber": "01163050002"
+            },
+            {
+              "name": "Seniors Bus Pass",
+              "phoneNumber": "01163050001"
+            },
+            {
+              "name": "Disabled Motoring Org",
+              "phoneNumber": "01508489449"
+            }
+          ]
+        },
+        {
+          "name": "Commercial Bus Services",
+          "services": [
+            {
+              "name": "Arriva Bus Service",
+              "phoneNumber": "03448004411"
+            },
+            {
+              "name": "Connect Bus Service",
+              "phoneNumber": "03447369123"
+            },
+            {
+              "name": "Stage Coach Buses",
+              "phoneNumber": "03452418000"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
