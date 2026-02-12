@@ -6,29 +6,37 @@
       "icon": "account_balance_wallet",
       "subcategories": [
         {
+          "name": "Benefits",
+          "services": [
+            {
+              "name": "MBC Benefits Team",
+              "phoneNumber": "01664502502"
+            }
+          ]
+        },
+        {
           "name": "Money Management Advice",
           "services": [
             {
-              "name": "Hinckley Citizens Advice",
-              "phoneNumber": "08082778540"
+              "name": "MadMac",
+              "phoneNumber": "07775942046"
             }
           ]
         },
         {
-          "name": "Credit Union",
+          "name": "Debt Management",
           "services": [
             {
-              "name": "Clockwise Credit Union",
-              "phoneNumber": "01162423900"
-            }
-          ]
-        },
-        {
-          "name": "Council Tax",
-          "services": [
+              "name": "National Debt Line",
+              "phoneNumber": "08088084000"
+            },
             {
-              "name": "Hinckley & Bosworth Council",
-              "phoneNumber": "01455238141"
+              "name": "Citizens Advice",
+              "phoneNumber": "08001448848"
+            },
+            {
+              "name": "Job Centre",
+              "phoneNumber": "08001690190"
             }
           ]
         }
@@ -42,8 +50,8 @@
           "name": "Emergency Accommodation",
           "services": [
             {
-              "name": "Hinckley & Bosworth Council",
-              "phoneNumber": "01455238141"
+              "name": "MBC Housing Options Team",
+              "phoneNumber": "01664502502"
             }
           ]
         },
@@ -51,16 +59,12 @@
           "name": "Home Equipment",
           "services": [
             {
-              "name": "Emmaus",
-              "phoneNumber": "01455637587"
+              "name": "Salvation Army",
+              "phoneNumber": "02073674500"
             },
             {
-              "name": "Work Link",
-              "phoneNumber": "01455634449"
-            },
-            {
-              "name": "Mind Hinckley",
-              "phoneNumber": "01455633490"
+              "name": "MIND",
+              "phoneNumber": "03001233393"
             }
           ]
         },
@@ -68,7 +72,7 @@
           "name": "Home Warmth",
           "services": [
             {
-              "name": "Age UK",
+              "name": "Age UK Warm and Wise Line",
               "phoneNumber": "01162614604"
             }
           ]
@@ -77,8 +81,12 @@
           "name": "Food Banks",
           "services": [
             {
-              "name": "Hinckley Food Bank",
-              "phoneNumber": "01455697390"
+              "name": "Storehouse Foodbank",
+              "phoneNumber": "07708610194"
+            },
+            {
+              "name": "Rural Food Hub",
+              "phoneNumber": "01664502502"
             }
           ]
         }
@@ -92,52 +100,44 @@
           "name": "Public Services",
           "services": [
             {
-              "name": "Hinckley Social Services",
-              "phoneNumber": "01455636964"
+              "name": "Melton Social Services",
+              "phoneNumber": "01664562722"
             },
             {
-              "name": "Lifeline",
-              "phoneNumber": "01455251137"
-            },
-            {
-              "name": "Leics Social Services",
-              "phoneNumber": "01162787111"
-            },
-            {
-              "name": "Leics Adult Social Care",
+              "name": "Leicestershire Adult Social Care",
               "phoneNumber": "01163050004"
             },
             {
-              "name": "Leics Mental Health",
-              "phoneNumber": "08088003302"
-            }
-          ]
-        },
-        {
-          "name": "Charities",
-          "services": [
-            {
-              "name": "Age UK",
-              "phoneNumber": "01162992266"
-            }
-          ]
-        },
-        {
-          "name": "Commercial Care Organisations",
-          "services": [
-            {
-              "name": "Blue Bird",
-              "phoneNumber": "01455360081"
+              "name": "MBC Private Lifeline",
+              "phoneNumber": "01664502502"
             },
             {
-              "name": "Helping Hand",
-              "phoneNumber": "07903315239"
-            },
-            {
-              "name": "Radfield Home Care",
-              "phoneNumber": "01664732047"
+              "name": "Leicestershire Mental Health Services",
+              "phoneNumber": "01162256000"
             }
           ]
+        }
+      ],
+      "services": [
+        {
+          "name": "Mental Health Matters",
+          "phoneNumber": "07816269726"
+        },
+        {
+          "name": "Charnwood & Melton Mental Health",
+          "phoneNumber": "08004346126"
+        },
+        {
+          "name": "Vita Health",
+          "phoneNumber": "03300945595"
+        },
+        {
+          "name": "Age UK",
+          "phoneNumber": "08000556112"
+        },
+        {
+          "name": "Homestart",
+          "phoneNumber": "07708792325"
         }
       ]
     },
@@ -146,8 +146,20 @@
       "icon": "volunteer_activism",
       "services": [
         {
-          "name": "Hinckley Library",
-          "phoneNumber": "01455635106"
+          "name": "Melton Library",
+          "phoneNumber": "01163053646"
+        },
+        {
+          "name": "Salvation Army",
+          "phoneNumber": "02073674500"
+        },
+        {
+          "name": "Local Area Coordinator",
+          "phoneNumber": "07787596898"
+        },
+        {
+          "name": "Job Centre",
+          "phoneNumber": "08001690190"
         }
       ]
     },
@@ -155,15 +167,6 @@
       "name": "Travel",
       "icon": "directions_bus",
       "subcategories": [
-        {
-          "name": "Local Car Volunteer Travel",
-          "services": [
-            {
-              "name": "Dial a Ride",
-              "phoneNumber": "01455250462"
-            }
-          ]
-        },
         {
           "name": "Leics Travel Cards",
           "services": [
@@ -195,6 +198,10 @@
             {
               "name": "Stage Coach Buses",
               "phoneNumber": "03452418000"
+            },
+            {
+              "name": "Centre Bus",
+              "phoneNumber": "01164105050"
             }
           ]
         }
