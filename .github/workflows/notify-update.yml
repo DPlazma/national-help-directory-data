@@ -1,0 +1,64 @@
+name: Notify Directory Update
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '*.json'
+
+permissions:
+  id-token: write
+  contents: read
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: 'projects/1053907469491/locations/global/workloadIdentityPools/github-actions/providers/github'
+          service_account: 'firebase-adminsdk-fbsvc@thd-notifications.iam.gserviceaccount.com'
+
+      - name: Send push notifications
+        run: |
+          ACCESS_TOKEN=$(gcloud auth print-access-token)
+          PROJECT_ID="thd-notifications"
+          
+          CHANGED=$(git diff --name-only HEAD~1 HEAD -- '*.json')
+          
+          send_notification() {
+            local TOPIC=$1
+            local BODY=$2
+            echo "Sending to topic: $TOPIC"
+            curl -s -X POST \
+              "https://fcm.googleapis.com/v1/projects/${PROJECT_ID}/messages:send" \
+              -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+              -H "Content-Type: application/json" \
+              -d "{
+                \"message\": {
+                  \"topic\": \"${TOPIC}\",
+                  \"notification\": {
+                    \"title\": \"Help Directory Updated\",
+                    \"body\": \"${BODY}\"
+                  }
+                }
+              }"
+          }
+          
+          if echo "$CHANGED" | grep -q "national.json"; then
+            send_notification "directory_national" "National support services have been updated"
+          fi
+          
+          if echo "$CHANGED" | grep -q "hinckley-bosworth.json"; then
+            send_notification "directory_hinckley-bosworth" "Hinckley & Bosworth services have been updated"
+          fi
+          
+          if echo "$CHANGED" | grep -q "melton-mowbray.json"; then
+            send_notification "directory_melton-mowbray" "Melton Mowbray services have been updated"
+          fi
