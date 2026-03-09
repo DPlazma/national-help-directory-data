@@ -1,0 +1,20 @@
+{
+  "regionId": "hinckley-bosworth",
+  "regionName": "Hinckley & Bosworth",
+  "appName": "The Help Directory",
+  "appSubtitle": "For Hinckley & Bosworth",
+  "mainPhoneNumber": "+441455414303",
+  "theme": {
+    "primaryColor": "#6B3FA0",
+    "lightBackground": "#F5F0FA",
+    "darkBackground": "#1E1E2E",
+    "lightCardColor": "#FFFFFF",
+    "darkCardColor": "#2E2E3E",
+    "lightCardAltColor": "#F0F0F0",
+    "darkCardAltColor": "#3A3A4A",
+    "lightSelectedCard": "#E8E0F0",
+    "darkSelectedCard": "#3A3C5C",
+    "phoneIconLight": "#2E7D32",
+    "phoneIconDark": "#4CAF50"
+  }
+}

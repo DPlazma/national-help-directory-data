@@ -1,0 +1,20 @@
+{
+  "regionId": "",
+  "regionName": "National",
+  "appName": "The Help Directory",
+  "appSubtitle": "For England",
+  "mainPhoneNumber": "+441224678000",
+  "theme": {
+    "primaryColor": "#153A6B",
+    "lightBackground": "#FFF9E5",
+    "darkBackground": "#23243A",
+    "lightCardColor": "#FFFFFF",
+    "darkCardColor": "#2E3050",
+    "lightCardAltColor": "#F5F5F5",
+    "darkCardAltColor": "#3A3A3A",
+    "lightSelectedCard": "#E8E0D0",
+    "darkSelectedCard": "#3A3C5C",
+    "phoneIconLight": "#2E7D32",
+    "phoneIconDark": "#4CAF50"
+  }
+}

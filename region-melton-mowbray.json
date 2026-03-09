@@ -1,0 +1,20 @@
+{
+  "regionId": "melton-mowbray",
+  "regionName": "Melton Mowbray",
+  "appName": "The Help Directory",
+  "appSubtitle": "For Melton Mowbray",
+  "mainPhoneNumber": "",
+  "theme": {
+    "primaryColor": "#1B5E20",
+    "lightBackground": "#E8F5E9",
+    "darkBackground": "#1B2E1B",
+    "lightCardColor": "#FFFFFF",
+    "darkCardColor": "#2E3E2E",
+    "lightCardAltColor": "#F0F5F0",
+    "darkCardAltColor": "#3A4A3A",
+    "lightSelectedCard": "#C8E6C9",
+    "darkSelectedCard": "#2E4A2E",
+    "phoneIconLight": "#1565C0",
+    "phoneIconDark": "#42A5F5"
+  }
+}

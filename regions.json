@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "regions": [
+    {
+      "id": "",
+      "name": "National",
+      "subtitle": "For England",
+      "description": "Access support services across England"
+    },
+    {
+      "id": "hinckley-bosworth",
+      "name": "Hinckley & Bosworth",
+      "subtitle": "Leicestershire",
+      "description": "Local services for Hinckley & Bosworth area plus national services"
+    },
+    {
+      "id": "melton-mowbray",
+      "name": "Melton Mowbray",
+      "subtitle": "Leicestershire",
+      "description": "Local services for Melton Mowbray area plus national services"
+    }
+  ]
+}
