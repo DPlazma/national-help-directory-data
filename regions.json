@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "regions": [
     {
       "id": "",
@@ -11,13 +11,15 @@
       "id": "hinckley-bosworth",
       "name": "Hinckley & Bosworth",
       "subtitle": "Leicestershire",
-      "description": "Local services for Hinckley & Bosworth area plus national services"
+      "description": "Local services for Hinckley & Bosworth area plus national services",
+      "group": "East Midlands"
     },
     {
       "id": "melton-mowbray",
       "name": "Melton Mowbray",
       "subtitle": "Leicestershire",
-      "description": "Local services for Melton Mowbray area plus national services"
+      "description": "Local services for Melton Mowbray area plus national services",
+      "group": "East Midlands"
     }
   ]
 }
