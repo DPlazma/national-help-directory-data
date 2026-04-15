@@ -1,0 +1,85 @@
+# Applies a pending appcast update after a 24-hour delay.
+#
+# Flow:
+#   1. Codemagic publishes to Play Store and writes pending_appcast.json
+#      with {"version": "x.y.z", "published_at": "ISO-8601 timestamp"}
+#   2. This workflow runs every 6 hours, checks if the pending file exists
+#      and is older than 24 hours.
+#   3. If so, it generates the new appcast.xml, commits it, and deletes
+#      the pending file.
+
+name: Apply Appcast Update
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  apply-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Check for pending update
+        id: check
+        run: |
+          if [ ! -f pending_appcast.json ]; then
+            echo "No pending update found."
+            echo "should_update=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          PUBLISHED_AT=$(python3 -c "import json; print(json.load(open('pending_appcast.json'))['published_at'])")
+          VERSION=$(python3 -c "import json; print(json.load(open('pending_appcast.json'))['version'])")
+
+          # Check if 24 hours have passed
+          PUBLISHED_EPOCH=$(date -d "$PUBLISHED_AT" +%s)
+          NOW_EPOCH=$(date +%s)
+          DIFF=$((NOW_EPOCH - PUBLISHED_EPOCH))
+          HOURS=$((DIFF / 3600))
+
+          echo "Pending version: $VERSION (published ${HOURS}h ago)"
+
+          if [ "$DIFF" -lt 86400 ]; then
+            echo "Only ${HOURS}h since publish — waiting for 24h. Skipping."
+            echo "should_update=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          echo "24h+ have passed. Applying update."
+          echo "should_update=true" >> "$GITHUB_OUTPUT"
+          echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+
+      - name: Generate and commit appcast.xml
+        if: steps.check.outputs.should_update == 'true'
+        run: |
+          VERSION="${{ steps.check.outputs.version }}"
+          DATE=$(date -u '+%a, %d %b %Y %H:%M:%S +0000')
+
+          cat > appcast.xml << EOF
+          <?xml version="1.0" encoding="utf-8"?>
+          <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+              <channel>
+                  <title>OctopusConnect</title>
+                  <item>
+                      <title>Version ${VERSION}</title>
+                      <pubDate>${DATE}</pubDate>
+                      <sparkle:version>${VERSION}</sparkle:version>
+                      <sparkle:os>android</sparkle:os>
+                      <enclosure url="https://play.google.com/store/apps/details?id=uk.plazagroup.octopusconnect" sparkle:version="${VERSION}" sparkle:os="android"/>
+                  </item>
+              </channel>
+          </rss>
+          EOF
+
+          rm pending_appcast.json
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add appcast.xml
+          git rm pending_appcast.json
+          git commit -m "Update appcast to v${VERSION} (24h delay applied)"
+          git push
