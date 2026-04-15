@@ -1,23 +1,48 @@
-# Applies a pending appcast update after a 24-hour delay.
+# Manages appcast.xml updates with a 24-hour delay.
 #
 # Flow:
-#   1. Codemagic publishes to Play Store and writes pending_appcast.json
-#      with {"version": "x.y.z", "published_at": "ISO-8601 timestamp"}
-#   2. This workflow runs every 6 hours, checks if the pending file exists
-#      and is older than 24 hours.
-#   3. If so, it generates the new appcast.xml, commits it, and deletes
-#      the pending file.
+#   1. After uploading a new build to Play Console, manually trigger this
+#      workflow from the Actions tab and enter the new version number.
+#   2. The workflow writes pending_appcast.json with a timestamp.
+#   3. A scheduled run (every 6 hours) checks if the pending file is >24h old.
+#   4. Once 24h have passed, it generates the new appcast.xml, commits it,
+#      and deletes the pending file.
 
-name: Apply Appcast Update
+name: Appcast Update
 
 on:
   schedule:
-    # Run every 6 hours
+    # Run every 6 hours to check for pending updates
     - cron: '0 */6 * * *'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'App version to schedule (e.g. 0.9.9)'
+        required: true
+        type: string
 
 jobs:
+  schedule-update:
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+
+      - name: Write pending update file
+        run: |
+          VERSION="${{ github.event.inputs.version }}"
+          TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+          echo "{\"version\":\"${VERSION}\",\"published_at\":\"${TIMESTAMP}\"}" > pending_appcast.json
+
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add pending_appcast.json
+          git commit -m "Schedule appcast update to v${VERSION}"
+          git push
+
   apply-update:
+    if: github.event_name == 'schedule'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout data repo
@@ -74,8 +99,6 @@ jobs:
               </channel>
           </rss>
           EOF
-
-          rm pending_appcast.json
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
