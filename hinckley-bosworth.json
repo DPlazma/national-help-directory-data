@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "categories": [
     {
       "name": "Money Matters",
@@ -146,8 +146,23 @@
       "icon": "volunteer_activism",
       "services": [
         {
-          "name": "Hinckley Library",
-          "phoneNumber": "01455635106"
+          "name": "Warm Welcome Centres",
+          "phoneNumber": "01455238141"
+        }
+      ],
+      "subcategories": [
+        {
+          "name": "Charities",
+          "services": [
+            {
+              "name": "Hinckley MENCAP",
+              "phoneNumber": "01455637312"
+            },
+            {
+              "name": "Hinckley Library",
+              "phoneNumber": "01455635106"
+            }
+          ]
         }
       ]
     },
@@ -197,6 +212,48 @@
               "phoneNumber": "03452418000"
             }
           ]
+        }
+      ]
+    },
+    {
+      "name": "24hr Urgent Assistance",
+      "icon": "emergency",
+      "services": [
+        {
+          "name": "111 NHS Medical",
+          "phoneNumber": "111"
+        },
+        {
+          "name": "101 Police Non-Urgent",
+          "phoneNumber": "101"
+        },
+        {
+          "name": "999 Police, Ambulance, Fire",
+          "phoneNumber": "999"
+        },
+        {
+          "name": "Abuse Support Line",
+          "phoneNumber": "08082000247"
+        },
+        {
+          "name": "Bereavement Support",
+          "phoneNumber": "03001233393"
+        },
+        {
+          "name": "Childline",
+          "phoneNumber": "08001111"
+        },
+        {
+          "name": "Samaritans",
+          "phoneNumber": "0116123"
+        },
+        {
+          "name": "Silver Line (Over 55s)",
+          "phoneNumber": "08004708090"
+        },
+        {
+          "name": "Victim Support",
+          "phoneNumber": "08081689293"
         }
       ]
     }

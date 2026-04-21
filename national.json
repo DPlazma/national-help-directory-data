@@ -1,5 +1,5 @@
 {
-  "version": 7,
+  "version": 8,
   "categories": [
     {
       "name": "24hr Urgent Assistance",
@@ -303,6 +303,10 @@
             {
               "name": "Osteoporosis UK",
               "phoneNumber": "03007900400"
+            },
+            {
+              "name": "Osteoarthritis UK",
+              "phoneNumber": "03007900400"
             }
           ]
         },
@@ -375,6 +379,14 @@
             {
               "name": "Salvation Army",
               "phoneNumber": "02073674800"
+            },
+            {
+              "name": "MENCAP",
+              "phoneNumber": "08088081111"
+            },
+            {
+              "name": "Royal British Legion",
+              "phoneNumber": "08088028080"
             }
           ]
         },
@@ -429,6 +441,10 @@
             {
               "name": "National Rail Assistance",
               "phoneNumber": "08003161323"
+            },
+            {
+              "name": "DVLA",
+              "phoneNumber": "03007906802"
             }
           ]
         }
