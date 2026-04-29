@@ -1,5 +1,5 @@
 {
-  "version": 8,
+  "version": 9,
   "categories": [
     {
       "name": "24hr Urgent Assistance",
@@ -387,6 +387,10 @@
             {
               "name": "Royal British Legion",
               "phoneNumber": "08088028080"
+            },
+            {
+              "name": "Marie Curie",
+              "phoneNumber": "08000902309"
             }
           ]
         },
