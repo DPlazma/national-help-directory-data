@@ -1,5 +1,5 @@
 {
-  "version": 9,
+  "version": 10,
   "categories": [
     {
       "name": "24hr Urgent Assistance",
@@ -436,7 +436,7 @@
           ]
         },
         {
-          "name": "Rail Services",
+          "name": "Public Services",
           "services": [
             {
               "name": "National Rail Enquiries",
