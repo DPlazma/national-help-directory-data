@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "regions": [
     {
       "id": "",
@@ -8,18 +8,18 @@
       "description": "Access support services across England"
     },
     {
-      "id": "hinckley-bosworth",
-      "name": "Hinckley & Bosworth",
-      "subtitle": "Leicestershire",
-      "description": "Local services for Hinckley & Bosworth area plus national services",
-      "group": "East Midlands"
+      "id": "le",
+      "name": "LE",
+      "subtitle": "Leicester & Leicestershire",
+      "description": "Local services for the LE postcode area plus national services",
+      "neighbours": ["cv", "de", "ng", "nn"]
     },
     {
-      "id": "melton-mowbray",
-      "name": "Melton Mowbray",
-      "subtitle": "Leicestershire",
-      "description": "Local services for Melton Mowbray area plus national services",
-      "group": "East Midlands"
+      "id": "cv",
+      "name": "CV",
+      "subtitle": "Coventry & Warwickshire",
+      "description": "Local services for the CV postcode area plus national services",
+      "neighbours": ["le", "b", "dy", "ws"]
     }
   ]
 }
