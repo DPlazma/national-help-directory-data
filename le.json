@@ -2,39 +2,6 @@
   "version": 1,
   "categories": [
     {
-      "name": "Money Matters",
-      "icon": "account_balance_wallet",
-      "subcategories": [
-        {
-          "name": "Money Management Advice",
-          "services": [
-            {
-              "name": "Hinckley Citizens Advice",
-              "phoneNumber": "08082778540"
-            }
-          ]
-        },
-        {
-          "name": "Credit Union",
-          "services": [
-            {
-              "name": "Clockwise Credit Union",
-              "phoneNumber": "01162423900"
-            }
-          ]
-        },
-        {
-          "name": "Council Tax",
-          "services": [
-            {
-              "name": "Hinckley & Bosworth Council",
-              "phoneNumber": "01455238141"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Physical Matters",
       "icon": "accessibility_new",
       "subcategories": [
@@ -79,6 +46,39 @@
             {
               "name": "Hinckley Food Bank",
               "phoneNumber": "01455697390"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Money Matters",
+      "icon": "account_balance_wallet",
+      "subcategories": [
+        {
+          "name": "Money Management Advice",
+          "services": [
+            {
+              "name": "Hinckley Citizens Advice",
+              "phoneNumber": "08082778540"
+            }
+          ]
+        },
+        {
+          "name": "Credit Union",
+          "services": [
+            {
+              "name": "Clockwise Credit Union",
+              "phoneNumber": "01162423900"
+            }
+          ]
+        },
+        {
+          "name": "Council Tax",
+          "services": [
+            {
+              "name": "Hinckley & Bosworth Council",
+              "phoneNumber": "01455238141"
             }
           ]
         }
