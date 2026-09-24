@@ -2,47 +2,6 @@
   "version": 1,
   "categories": [
     {
-      "name": "Money Matters",
-      "icon": "account_balance_wallet",
-      "subcategories": [
-        {
-          "name": "Benefits",
-          "services": [
-            {
-              "name": "MBC Benefits Team",
-              "phoneNumber": "01664502502"
-            }
-          ]
-        },
-        {
-          "name": "Money Management Advice",
-          "services": [
-            {
-              "name": "MadMac",
-              "phoneNumber": "07775942046"
-            }
-          ]
-        },
-        {
-          "name": "Debt Management",
-          "services": [
-            {
-              "name": "National Debt Line",
-              "phoneNumber": "08088084000"
-            },
-            {
-              "name": "Citizens Advice",
-              "phoneNumber": "08001448848"
-            },
-            {
-              "name": "Job Centre",
-              "phoneNumber": "08001690190"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Physical Matters",
       "icon": "accessibility_new",
       "subcategories": [
@@ -93,8 +52,71 @@
       ]
     },
     {
+      "name": "Money Matters",
+      "icon": "account_balance_wallet",
+      "subcategories": [
+        {
+          "name": "Benefits",
+          "services": [
+            {
+              "name": "MBC Benefits Team",
+              "phoneNumber": "01664502502"
+            }
+          ]
+        },
+        {
+          "name": "Money Management Advice",
+          "services": [
+            {
+              "name": "MadMac",
+              "phoneNumber": "07775942046"
+            }
+          ]
+        },
+        {
+          "name": "Debt Management",
+          "services": [
+            {
+              "name": "National Debt Line",
+              "phoneNumber": "08088084000"
+            },
+            {
+              "name": "Citizens Advice",
+              "phoneNumber": "08001448848"
+            },
+            {
+              "name": "Job Centre",
+              "phoneNumber": "08001690190"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Home Care",
       "icon": "home",
+      "services": [
+        {
+          "name": "Mental Health Matters",
+          "phoneNumber": "07816269726"
+        },
+        {
+          "name": "Charnwood & Melton Mental Health",
+          "phoneNumber": "08004346126"
+        },
+        {
+          "name": "Vita Health",
+          "phoneNumber": "03300945595"
+        },
+        {
+          "name": "Age UK",
+          "phoneNumber": "08000556112"
+        },
+        {
+          "name": "Homestart",
+          "phoneNumber": "07708792325"
+        }
+      ],
       "subcategories": [
         {
           "name": "Public Services",
@@ -116,28 +138,6 @@
               "phoneNumber": "01162256000"
             }
           ]
-        }
-      ],
-      "services": [
-        {
-          "name": "Mental Health Matters",
-          "phoneNumber": "07816269726"
-        },
-        {
-          "name": "Charnwood & Melton Mental Health",
-          "phoneNumber": "08004346126"
-        },
-        {
-          "name": "Vita Health",
-          "phoneNumber": "03300945595"
-        },
-        {
-          "name": "Age UK",
-          "phoneNumber": "08000556112"
-        },
-        {
-          "name": "Homestart",
-          "phoneNumber": "07708792325"
         }
       ]
     },
