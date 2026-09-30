@@ -2,8 +2,41 @@
   "version": 1,
   "categories": [
     {
+      "name": "Money Matters",
+      "icon": "account_balance_wallet",
+      "subcategories": [
+        {
+          "name": "Money Management Advice",
+          "services": [
+            {
+              "name": "Hinckley Citizens Advice",
+              "phoneNumber": "08082778540"
+            }
+          ]
+        },
+        {
+          "name": "Credit Union",
+          "services": [
+            {
+              "name": "Clockwise Credit Union",
+              "phoneNumber": "01162423900"
+            }
+          ]
+        },
+        {
+          "name": "Council Tax",
+          "services": [
+            {
+              "name": "Hinckley & Bosworth Council",
+              "phoneNumber": "01455238141"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "Physical Matters",
-      "icon": "accessibility_new",
+      "icon": "home",
       "subcategories": [
         {
           "name": "Emergency Accommodation",
@@ -52,42 +85,18 @@
       ]
     },
     {
-      "name": "Money Matters",
-      "icon": "account_balance_wallet",
-      "subcategories": [
-        {
-          "name": "Money Management Advice",
-          "services": [
-            {
-              "name": "Hinckley Citizens Advice",
-              "phoneNumber": "08082778540"
-            }
-          ]
-        },
-        {
-          "name": "Credit Union",
-          "services": [
-            {
-              "name": "Clockwise Credit Union",
-              "phoneNumber": "01162423900"
-            }
-          ]
-        },
-        {
-          "name": "Council Tax",
-          "services": [
-            {
-              "name": "Hinckley & Bosworth Council",
-              "phoneNumber": "01455238141"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Home Care",
-      "icon": "home",
+      "icon": "elderly",
       "subcategories": [
+        {
+          "name": "Charities",
+          "services": [
+            {
+              "name": "Age UK",
+              "phoneNumber": "01162992266"
+            }
+          ]
+        },
         {
           "name": "Public Services",
           "services": [
@@ -110,15 +119,6 @@
             {
               "name": "Leics Mental Health",
               "phoneNumber": "08088003302"
-            }
-          ]
-        },
-        {
-          "name": "Charities",
-          "services": [
-            {
-              "name": "Age UK",
-              "phoneNumber": "01162992266"
             }
           ]
         },
