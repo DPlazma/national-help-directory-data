@@ -2,56 +2,6 @@
   "version": 1,
   "categories": [
     {
-      "name": "Physical Matters",
-      "icon": "accessibility_new",
-      "subcategories": [
-        {
-          "name": "Emergency Accommodation",
-          "services": [
-            {
-              "name": "MBC Housing Options Team",
-              "phoneNumber": "01664502502"
-            }
-          ]
-        },
-        {
-          "name": "Home Equipment",
-          "services": [
-            {
-              "name": "Salvation Army",
-              "phoneNumber": "02073674500"
-            },
-            {
-              "name": "MIND",
-              "phoneNumber": "03001233393"
-            }
-          ]
-        },
-        {
-          "name": "Home Warmth",
-          "services": [
-            {
-              "name": "Age UK Warm and Wise Line",
-              "phoneNumber": "01162614604"
-            }
-          ]
-        },
-        {
-          "name": "Food Banks",
-          "services": [
-            {
-              "name": "Storehouse Foodbank",
-              "phoneNumber": "07708610194"
-            },
-            {
-              "name": "Rural Food Hub",
-              "phoneNumber": "01664502502"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "name": "Money Matters",
       "icon": "account_balance_wallet",
       "subcategories": [
@@ -93,8 +43,54 @@
       ]
     },
     {
-      "name": "Home Care",
+      "name": "Physical Matters",
       "icon": "home",
+      "subcategories": [
+        {
+          "name": "Emergency Accommodation",
+          "services": [
+            {
+              "name": "MBC Housing Options Team",
+              "phoneNumber": "01664502502"
+            }
+          ]
+        },
+        {
+          "name": "Home Equipment",
+          "services": [
+            {
+              "name": "MIND",
+              "phoneNumber": "03001233393"
+            }
+          ]
+        },
+        {
+          "name": "Home Warmth",
+          "services": [
+            {
+              "name": "Age UK Warm and Wise Line",
+              "phoneNumber": "01162614604"
+            }
+          ]
+        },
+        {
+          "name": "Food Banks",
+          "services": [
+            {
+              "name": "Storehouse Foodbank",
+              "phoneNumber": "07708610194"
+            },
+            {
+              "name": "Rural Food Hub",
+              "phoneNumber": "01664502502"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Home Care",
+      "icon": "elderly",
       "services": [
         {
           "name": "Mental Health Matters",
