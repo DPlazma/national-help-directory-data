@@ -13,10 +13,7 @@
       "subtitle": "Leicester & Leicestershire",
       "description": "Local services for the LE postcode area plus national services",
       "neighbours": [
-        "cv",
-        "de",
-        "ng",
-        "nn"
+        "cv"
       ]
     },
     {
@@ -25,10 +22,7 @@
       "subtitle": "Coventry & Warwickshire",
       "description": "Local services for the CV postcode area plus national services",
       "neighbours": [
-        "le",
-        "b",
-        "dy",
-        "ws"
+        "le"
       ]
     }
   ]
